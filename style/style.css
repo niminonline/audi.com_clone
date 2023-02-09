@@ -1,4 +1,4 @@
-.body{
+body{
     Font-family: Helvetica,Arial,sans-serif;
 }
 
@@ -6,3 +6,26 @@
     width:32px;
     height:24px;
 }
+/* .section-title{
+    font-size: 3rem;
+    line-height: 4.2rem;
+} */
+/* .m-body{
+    width: 65%;
+    margin: 0px 18%;
+} */
+.c-t-thumbnail{
+    width:100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    p {
+        font-size:.8rem;    
+        color: blue;
+      }
+    .electric {
+        
+    }  
+  }

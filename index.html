@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <div class="body-block">
+    <div class="body-block container-fluid">
         <nav class="navbar navbar-nav navbar-expand-lg navbar-bg-light">
 
             <div class="nav-left">  
@@ -35,61 +35,66 @@
             </div>
         </nav>
 <header>
-    <img src="./images/header.png" alt="Header image">
+    <img class= "img-fluid" src="./images/header.png" alt="Header image">
     <h1 class="header-title">Xavier Ros on New Work</h1>
     <p class="header-subtitle">"We allow our employees maximum flexibility"</p>
     <button class="learn-more">Learn more</button>
 </header>
 
-<section class="current-topic container p-5"></section>
-    <h3 class="section-title text-center">Current topics from the world of Audi</h3>
-<div class="current-topic-block">
-
-
-    <div class="curr-topic-col">
-        <img  class="c-t-thumbnail"  src="./images/curr-topics-1.jpg" alt="">
+<section class="current-topic container-fluid p-5">
+    <h2 class="section-title text-center">Current topics from the world of Audi</h2>
+    <div class="current-topic-block row ">
+    <div class="curr-topic-col bg-success col-sm-12 col-md-4 container-fluid">
+        <img  class="c-t-thumbnail img-fluid"  src="./images/curr-topics-1.jpg" alt="">
         <p class="c-t-item-date">Annual Report ---- 12/16/2022</p>
         <h3 class="c-t-item-title">The diversity of the Four Rings</h3>
         <p class="section-contents">Carina Behrends works in Diversity Management to promote diversity and inclusion at Audi. Read here on what driveres her.</p>
     </div>
 
-    <div class="curr-topic-col">
-        <img class="c-t-thumbnail"  src="./images/curr-topics-2.png" alt="">
+    <div class="curr-topic-col bg-dark col-sm-12 col-md-4 container-fluid">
+        <img class="c-t-thumbnail img-fluid"  src="./images/curr-topics-2.png" alt="">
         <p class="c-t-item-date">Sustainability ---- 12/15/2022</p>
         <h3 class="c-t-item-title">We, not I: How Audi lives CSR</h3>
         <p class="section-contents">For Audi, being a good neighbor worldwide is more than just lip service. In 2022, the company supported around 200 nonprofit organizations across Germany – with donations and helping hands, from an initiative for equal opportunities, to emergency aid for refugees from Ukraine.</p>
     </div>
 
-    <div class="curr-topic-col">
-        <img class="c-t-thumbnail" src="./images/curr-topics-3.png" alt="">
+    <div class="curr-topic-col bg-warning col-sm-12 col-md-4 container-fluid">
+        <img class="c-t-thumbnail img-fluid" src="./images/curr-topics-3.png" alt="">
         <p class="c-t-item-date">Working World ---- 11/23/2022</p>
         <h3 class="c-t-item-title">Audi charging hub: flexible, sustainable, convenient</h3>
         <p class="section-contents">In addition to Nuremberg and Zurich, Audi charging hub fast-charging stations are planned in central locations in Salzburg, Berlin and Munich. They offer sustainable power storage and top service features.</p>
     </div>
 
 </div>
+</section>
 
-<section class="electric">
-<div class="electric-left-section">
+
+
+<section class="electric container m-auto row  bg-success ">
+<div class="electric-left-section col-sm-12 col-md-6  p-5">
     <h3 class="section-title">Full electric speed ahead</h3>
     <p class="section-contents">Audi recently underpinned its clear course toward electromobility with strong figures and important milestones. How the Four Rings are progressing on their path to successful electrification.</p>
     <button class="outline-black">Read more</button>
     <p class="xsfontsize">¹The vehicle shown is a concept vehicle that is not available as a production vehicle.</p>
 </div>
-<div class="electric-right-section">
-<img src="./images/electric.png" alt="Electric section image">
+<div class="electric-right-section col-md-6 col-sm-12 ms-auto bg-danger">
+<img class=".c-t-thumbnail bg-danger img-fluid " src="./images/electric.png" alt="Electric section image">
 </div>
 </section>
 
-<section class="career">
-    <div class="career-left-section">
+
+
+
+<section class="career container-fluid row p-5">
+    <div class="career-left-section col-md-6 col-sm-12">
         <img src="./images/career.png" alt="Career section image">
-    <div class="career-right-section">
+    </div>
+    <div class="career-right-section col-md-6 col-sm-12">
         <h3 class="section-title">Audi Career: We are progress. With you.</h3>
         <p class="section-contents">Progress is what you bring with you. At Audi we want to offer you the freedom to use and develop this progress. With flexible working hours. With an in-house further education academy. With projects which combine 100 years of experience in premium mobility with an electrified future. For a world that we keep on the move together – with you.</p>
         <button class="outline-black">Read more</button>
     </div>
-    </div>
+    
     </section>
 
     <section class="press-releases"></section>
