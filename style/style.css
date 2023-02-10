@@ -4,8 +4,12 @@ body{
     margin:0px;
 }
 
+.img-india-container{
+    width: 60px;
+    height:40px;
+}
 .in-flag{
-    width:32px;
+    width:30px;
     height:24px;
 }
 .lh-xsm{
@@ -15,7 +19,7 @@ line-height: 5px;
 .lh-xl{
     line-height: 50px;
 }
-footer,.footer-text{
+footer,.sm-text{
     font-size: .8rem;
     
 }
@@ -38,7 +42,10 @@ footer,.footer-text{
     transform: scale(1.2);
     transition: .6s ease-in-out;
 }
-
+.img-nav-logo{
+    width:70px;
+    height: 25px;
+}
 @media screen and (min-width:768px){
     .body-block{
         width:80%;

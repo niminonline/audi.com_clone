@@ -14,28 +14,48 @@
   
     <!-- navigation bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-bg-light">
+        <nav class="navbar navbar-expand-xxl sticky-top navbar-light bg-white ">
 
-            <div class="body-block container-fluid ">  
-                <img class=" img-fluid" src="./images/audi-logo.png" alt="brand logo" class="nav-logo">
-                <ul class="nav-item menu-list navbar-nav">
-                    <li class="nav-link menu-item text-black">Company</li>
-                    <li class="nav-link menu-item text-black">Innovation</li>
-                    <li class="nav-link menu-item text-black">Models</li>
-                    <li class="nav-link menu-item text-black">Brand</li>
-                    <li class="nav-link menu-item text-black">Careers</li>
+            <div class="body-block container-fluid">  
+
+                <div class="navbar-toggler border-0 text-black" type="div" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               <span>Menu</span>
+            </div>
+                
+            <div class="navigation-contents container-fluid d-flex align-items-center">
+                <img class="img-nav-logo nav-brand img-fluid" src="./images/audi-logo.png" alt="brand logo" class="nav-logo">
+                
+              
+                  <div class="navbar-collapse collapse show" id="navbar-content" >
+
+
+                <ul class="menu-list navbar-nav mx-5" id="menu">
+                    <li class="nav-item menu-item text-black mx-2">Company</li>
+                    <li class="nav-item menu-item text-black mx-2">Innovation</li>
+                    <li class="nav-item menu-item text-black mx-2">Models</li>
+                    <li class="nav-item menu-item text-black mx-2">Brand</li>
+                    <li class="nav-item menu-item text-black mx-23">Careers</li>
                 </ul>
            
-            <div class="nav-right navbar-nav ">
-                <i class="fa-solid fa-magnifying-glass "></i>
-                <p class="search border-end border-secondary mx-3 pe-3">Search</p>
-                <img class="rounded-circle in-flag mx-2" src="./images/in.svg" alt="Flag Image" >
-            <div class="region-select lh-xsm d-flex flex-column">
+                </div>
+
+            <div class="nav-right navbar-nav align-items-center ">
+                <div class="search-container navbar-nav align-items-center">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                <p class="search  px-4 my-0">Search</p>
+                </div>
+                <div class="img-india-container border-start border-secondary">
+                    <img class="rounded-circle in-flag mx-2" src="./images/in.svg" alt="Flag Image" >
+                </div>
+              
+            <div class="region-select lh-xsm d-flex flex-column my-2 sm-text ">
                     <p class="text-green">Audi in your Region:</p>
                     <p class="india">India</p>
                 </div>
+                </div>
             </div>
-            </div>
+        </div>
         </nav>
 
          <!-- Header section -->
@@ -186,7 +206,7 @@
             <div class="outline-button">
                 <button class=" outline-black btn btn-outline-dark btn-lg rounded-0 my-3 px-4">Discover all models</button>
             </div>      
-             <p class="footer-text">
+             <p class="sm-text">
                 Audi Q4 Sportback e-tron: Power consumption (combined*) in kWh/100 km: 19.7–16.1 <br> CO₂ emissions (combined*) in g/km: 0 <br>
                 Information on fuel/power consumption and CO₂ emissions with ranges depending on the selected <br> equipment of the vehicle.
                 Only consumption and emission values according to WLTP and not according to NEDC are available for the vehicle.
@@ -283,7 +303,7 @@
                 </div>
                 </div>
 
-                <p class="footer-text my-4">
+                <p class="sm-text my-4">
 
 
 * The stated consumption and emissions values were determined in accordance with the legally stipulated measurement procedure. The WLTP test cycle completely replaced the NEDC test cycle with effect from 1 January 2022. As a result, no NEDC values are available for vehicles with a type approval issued after this date. <br>
