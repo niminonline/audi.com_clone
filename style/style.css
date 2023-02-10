@@ -19,6 +19,9 @@ footer,.footer-text{
     font-size: .8rem;
     
 }
+.mt-10{
+    margin-top:100px;
+}
 .section-sub-title{
     font-size: 26px;
     font-weight: 400;
@@ -27,22 +30,37 @@ footer,.footer-text{
     width:32px;
     height:24px;
 }
-.header-section{
-    background-image: url("../images/header.png");
-    width:100%;
-    height:50vh;
-    background-position: center;
-    object-fit: cover;
-    background-size: cover;
- 
+
+.img-zoom{
+    transition: .6s ease-in-out;
 }
 .img-zoom:hover{
     transform: scale(1.2);
-    transition: 1s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 @media screen and (min-width:768px){
     .body-block{
         width:80%;
      }
+}
+@media screen and (max-width:1200px){
+    #header-contents{
+    display: none;
+    }
+    #header-mobile-contents{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        visibility: visible;
+    }
+}
+@media screen and (min-width:1200px){
+    #header-contents{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #header-mobile-contents{
+    display: none;    }
 }
