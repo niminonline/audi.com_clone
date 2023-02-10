@@ -71,3 +71,18 @@ footer,.sm-text{
     #header-mobile-contents{
     display: none;    }
 }
+@media screen and (max-width:1400px){
+    .region-select,.search,.img-india-container{
+        display: none;
+    }
+    .mobile-view-nav{
+       display: flex;
+    }
+}
+@media screen and (min-width:1400px){
+    .region-select{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
