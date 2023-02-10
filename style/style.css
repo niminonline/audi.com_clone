@@ -26,6 +26,13 @@ footer,.sm-text{
 .mt-10{
     margin-top:100px;
 }
+.section-margin{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+ul li{
+    cursor: pointer;
+}
 .section-sub-title{
     font-size: 26px;
     font-weight: 400;
@@ -75,16 +82,33 @@ footer,.sm-text{
     .region-select,.search,.img-india-container{
         display: none;
     }
+    .section-margin{
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
     .mobile-view-nav{
-       display: flex;
+       display:flex;
+       justify-content: space-between;
+       width: 100%;
+       padding-right: 20px;
+       align-items: center;
     }
     .img-nav-logo-mobile{
         display: inline;
         width:70px;
         height: 25px;
     }
-    .img-nav-logo{
+    .img-nav-logo,.img-india-container,.nav-right,.region-select{
         display: none;
+    }
+   #navbar-content li{
+    text-align: center;
+    padding: 8px 0px;
+    border-bottom: 1px solid grey;
+
+   }
+    .body-block-navbar{
+        width: 100%;
     }
 }
 @media screen and (min-width:1400px){
@@ -101,6 +125,9 @@ footer,.sm-text{
     .main-navbar-container {
         display: flex;
         justify-content: space-between;
+    }
+    .mobile-view-nav{
+        display: none;
     }
 }
 
