@@ -78,11 +78,29 @@ footer,.sm-text{
     .mobile-view-nav{
        display: flex;
     }
+    .img-nav-logo-mobile{
+        display: inline;
+        width:70px;
+        height: 25px;
+    }
+    .img-nav-logo{
+        display: none;
+    }
 }
 @media screen and (min-width:1400px){
     .region-select{
         display: flex;
         flex-direction: column;
+    }
+    .img-nav-logo-mobile{
+        display: none;
+    }
+    .img-nav-logo{
+        display: inline;
+    }
+    .main-navbar-container {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
