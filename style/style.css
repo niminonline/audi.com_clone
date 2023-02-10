@@ -8,11 +8,10 @@ body{
     width:32px;
     height:24px;
 }
-
-.footer-theme{
-    background-color: black;
-    color:white;
+.lh-xsm{
+line-height: 5px;
 }
+
 .lh-xl{
     line-height: 50px;
 }
@@ -37,13 +36,13 @@ footer,.footer-text{
     background-size: cover;
  
 }
+.img-zoom:hover{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
 
 @media screen and (min-width:768px){
     .body-block{
         width:80%;
      }
-     p{
-        color: blue;
-     }
-    
 }

@@ -14,35 +14,38 @@
   
     <!-- navigation bar -->
 
-        <nav class="navbar navbar-nav navbar-expand-lg navbar-bg-light">
+        <nav class="navbar navbar-expand-lg navbar-bg-light">
 
-            <div class="nav-left">  
+            <div class="container-fluid">  
                 <img class="navbar-brand img-fluid" src="./images/audi-logo.png" alt="brand logo" class="nav-logo">
-                <ul class="nav-item menu-list">
+                <ul class="nav-item menu-list navbar-nav">
                     <li class="nav-link menu-item">Company</li>
                     <li class="nav-link menu-item">Innovation</li>
                     <li class="nav-link menu-item">Models</li>
                     <li class="nav-link menu-item">Brand</li>
                     <li class="nav-link menu-item">Careers</li>
                 </ul>
-            </div>
-
-            <div class="nav-right">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <p class="search">Search</p>
-                <img src="./images/in.svg" alt="Flag Image" class="in-flag">
-                <div class="region-select">
-                    <p class="grey-text">Audi in your Region:</p>
+           
+            <div class="nav-right navbar-nav ">
+                <i class="fa-solid fa-magnifying-glass "></i>
+                <p class="search border-end mx-3 pe-3">Search</p>
+                <img class="rounded-circle in-flag mx-2" src="./images/in.svg" alt="Flag Image" >
+            <div class="region-select lh-xsm">
+                    <p class="text-green">Audi in your Region:</p>
                     <p class="india">India</p>
                 </div>
             </div>
+            </div>
         </nav>
-<header class="header-section d-flex flex-column justify-content-center align-items-center">
+
+
+
+        <header class="header-section d-flex flex-column justify-content-center align-items-center text-white">
     <!-- <img class= "img-fluid" src="./images/header.png" alt="Header image"> -->
     <h1 class="header-title">Xavier Ros on New Work</h1>
     <p class="header-subtitle">"We allow our employees maximum flexibility"</p>
     <div class="outline-button">
-        <button class=" outline-black btn btn-outline-dark btn-lg rounded-0 my-3 px-4">Learn more</button>
+        <button class=" outline-black btn btn-lg rounded-0 my-3 px-4 btn-outline-secondary text-white">Learn more</button>
     </div>
 </header>
 
@@ -55,22 +58,27 @@
     <h2 class="section-title text-center my-4">Current topics from the world of Audi</h2>
     <div class="current-topic-block row ">
     <div class="curr-topic-col col-sm-12 col-md-4 container-fluid">
-        <img  class="c-t-thumbnail img-fluid w-100"  src="./images/curr-topics-1.jpg" alt="current topic 1 image">
+        <div class="image-container overflow-hidden w-100">
+        <img  class="c-t-thumbnail img-fluid w-100 img-zoom"  src="./images/curr-topics-1.jpg" alt="current topic 1 image">
+       </div>
         <p class="c-t-item-date">Annual Report ---- 12/16/2022</p>
         <h3 class="section-sub-title">The diversity of the Four Rings</h3>
         <p class="section-contents">Carina Behrends works in Diversity Management to promote diversity and inclusion at Audi. Read here on what driveres her.</p>
     </div>
 
     <div class="curr-topic-col col-sm-12 col-md-4 container-fluid">
-        <img class="c-t-thumbnail img-fluid w-100"  src="./images/curr-topics-2.png" alt="current topic 2 image">
+        <div class="image-container overflow-hidden w-100">
+        <img class="c-t-thumbnail img-fluid w-100 img-zoom"  src="./images/curr-topics-2.png" alt="current topic 2 image">
+        </div>
         <p class="c-t-item-date">Sustainability ---- 12/15/2022</p>
         <h3 class="section-sub-title">We, not I: How Audi lives CSR</h3>
         <p class="section-contents">For Audi, being a good neighbor worldwide is more than just lip service. In 2022, the company supported around 200 nonprofit organizations across Germany – with donations and helping hands, from an initiative for equal opportunities, to emergency aid for refugees from Ukraine.</p>
     </div>
 
     <div class="curr-topic-col col-sm-12 col-md-4 container-fluid">
-        <img class="c-t-thumbnail img-fluid w-100" src="./images/curr-topics-3.png" alt="current topic 3 image">
-        <p class="c-t-item-date">Working World ---- 11/23/2022</p>
+        <div class="image-container overflow-hidden w-100">
+        <img class="c-t-thumbnail img-fluid w-100 img-zoom" src="./images/curr-topics-3.png" alt="current topic 3 image">
+        </div><p class="c-t-item-date">Working World ---- 11/23/2022</p>
         <h3 class="section-sub-title">Audi charging hub: flexible, sustainable, convenient</h3>
         <p class="section-contents">In addition to Nuremberg and Zurich, Audi charging hub fast-charging stations are planned in central locations in Salzburg, Berlin and Munich. They offer sustainable power storage and top service features.</p>
     </div>
@@ -87,7 +95,7 @@
     <div class="outline-button">
         <button class=" outline-black btn btn-outline-dark btn-lg rounded-0 my-3 px-4">Read more</button>
     </div>
-    <p class="xsfontsize">¹The vehicle shown is a concept vehicle that is not available as a production vehicle.</p>
+    <p class="xsfontsize"> ¹The vehicle shown is a concept vehicle that is not available as a production vehicle.</p>
 </div>
 <div class="electric-right-section col-md-6 col-sm-12 order-1 order-md-2 container-fluid">
 <img class=".c-t-thumbnail img-fluid w-100" src="./images/electric.png" alt="Electric section image">
@@ -98,7 +106,7 @@
 <!-- career section -->
 
 <section class="career container-fluid row my-4">
-    <div class="career-left-section col-md-6 col-sm-12 container-fluid my-3 ">
+    <div class="career-left-section col-md-6 col-sm-12 container-fluid">
         <img class="img-fluid w-100" src="./images/career.png" alt="Career section image">
     </div>
     <div class="career-right-section col-md-6 col-sm-12 container-fluid py-3 d-flex flex-column justify-content-center" >
@@ -118,22 +126,28 @@
     <h2 class="section-title text-center my-4">Press releases</h2>
 <div class="press-releases-block container-fluid my-4 row m-auto" >
 
-    <div class="press-releases-col col-sm-12 col-md-4 container-fluid" >
-        <img  class="c-t-thumbnail img-fluid w-100"  src="./images/press-release-1.png" alt="press-release-1 image">
+    <div class="press-releases-col col-sm-12 col-md-4 container-fluid " >
+        <div class="image-container overflow-hidden w-100">
+            <img  class="c-t-thumbnail img-fluid w-100 img-zoom "  src="./images/press-release-1.png" alt="press-release-1 image">
+        </div>
         <p class="c-t-item-date"> Audi MediaCenter --- 02/01/2023 </p>
         <h3 class="section-sub-title">Audi deepens software expertise with around 400 new IT positions</h3>
         <p class="section-contents">To the press release</p>
     </div>
 
     <div class="curr-topic-col col-sm-12 col-md-4 container-fluid">
-        <img class="c-t-thumbnail img-fluid w-100"  src="./images/press-release-2.png" alt="press-release-2 image">
+        <div class="image-container overflow-hidden w-100">
+        <img class="c-t-thumbnail img-fluid w-100 img-zoom"  src="./images/press-release-2.png" alt="press-release-2 image">
+       </div>
         <p class="c-t-item-date">Audi MediaCenter ---- 01/26/2023</p>
         <h3 class="section-sub-title">The Audi activesphere concept</h3>
         <p class="section-contents">To the press release</p>
     </div>
 
     <div class="curr-topic-col col-sm-12 col-md-4 container-fluid">
-        <img class="c-t-thumbnail img-fluid w-100" src="./images/press-release-3.png" alt="press-release-3 image">
+        <div class="image-container overflow-hidden w-100">
+        <img class="c-t-thumbnail img-fluid w-100 img-zoom" src="./images/press-release-3.png" alt="press-release-3 image">
+       </div>
         <p class="c-t-item-date">Audi MediaCenter ---- 01/24/2023</p>
         <h3 class="section-sub-title ">Sustainable Water Management: Audi Joins the Alliance for Water Stewardship</h3>
         <p class="section-contents">To the press release</p>
@@ -170,7 +184,7 @@
 
     <!-- Footer section -->
 
-        <footer class="footer-theme container-fluid p-4 lh-lg">
+        <footer class="footer-theme container-fluid p-4 lh-lg text-white bg-black">
             <div class="ft-row1 d-flex justify-content-end my-3">
                 <i class="fa-brands fa-linkedin fa-2xl mx-3"></i>
                 <i class="fa-brands fa-instagram fa-2xl mx-3"></i>
@@ -180,9 +194,16 @@
 
             <div class="ft-row2 row container-fluid p-4 lh-">
              
-                <div class="ft-row2 col-md-3">
-                <h3 class="section-sub-title">Topics</h3> 
-                <ul class="footer-menu-items  list-unstyled">
+                <div class="ft-row2 col-sm-3">
+                    <hr class="d-sm-none">
+                <div class="exp-menu-container d-flex justify-content-between align-items-center">
+                        <h3 class="section-sub-title">Topics</h3> 
+                        <i class="fa-solid fa-angle-down fa-xl d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#topics"></i>       
+                </div>
+               
+                
+                
+                <ul class="footer-menu-items list-unstyled collapse d-sm-block" id="topics">
                 <li>Company</li>
                 <li>Innovation</li>
                 <li>Models</li>
@@ -190,29 +211,41 @@
                 <li>Career</li>
             </ul>               
             </div>
-           
-            <div class="ft-row2 col-md-3">
-                <h3 class="section-sub-title">AUDI AG</h3> 
-            <ul class="footer-menu-items  list-unstyled">
-                <li>Audi Report 2021</li>
+        
+            <hr class="d-sm-none">
+            <div class="ft-row2 col-sm-3">
+              
+                <div class="exp-menu-container d-flex justify-content-between align-items-center">
+                    <h3 class="section-sub-title">Audi AG</h3> 
+                    <i class="fa-solid fa-angle-down fa-xl d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#audi-ag"></i>       
+            </div>
+            
+            <ul class="footer-menu-items list-unstyled collapse d-sm-block" id="audi-ag">  
+                 <li>Audi Report 2021</li>
                 <li>Documents & Policies</li>
                 <li>Financial Calender </li>
                 <li>Profile</li>
             </ul>              
          </div>
-           
-            <div class="ft-row2 col-md-3">
-                <h3 class="section-sub-title">Services</h3> 
-            <ul class="footer-menu-items list-unstyled">
-                <li>myAudi</li>
+          
+         <hr class="d-sm-none">
+            <div class="ft-row2 col-sm-3">
+                <div class="exp-menu-container d-flex justify-content-between align-items-center">
+                    <h3 class="section-sub-title">Services</h3> 
+                    <i class="fa-solid fa-angle-down fa-xl d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#services"></i>       
+            </div>
+            <ul class="footer-menu-items list-unstyled collapse d-sm-block" id="services">  
+                  <li>myAudi</li>
                 <li>Press</li>
                 <li>Contact</li>
                 <li>Job portal</li>
             </ul>        
                </div>
+               <hr class="d-sm-none w-100">
+
             </div>
-          
-               <hr class="footer-line">
+           
+               <hr class="footer-line d-none d-sm-block">
 
                <div class="ft-row3 row container-fluid">
                 <div class="ft-row3 col-md-2">
@@ -226,9 +259,9 @@
                         <li class="mx-2">Privacy Policy</li>
                         <li class="mx-2">Cookie Policy</li>
                         <li class="mx-2">Cookie Consent Options</li>
-
                     </ul>
                 </div>
+               
                 <div class="ft-row3 col-md-2 d-flex gap-2  align-items-center">
                     <img class="global-image" src="./images/global.png" alt="global-image">
                     <p class="m-0">English</p>
