@@ -2,6 +2,7 @@ body{
     Font-family: Helvetica,Arial,sans-serif;
     padding:0px;
     margin:0px;
+    min-width:300px;
 }
 
 .img-india-container{
