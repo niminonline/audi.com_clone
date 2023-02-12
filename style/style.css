@@ -142,5 +142,9 @@ ul li{
     .mobile-view-nav{
         display: none;
     }
+    .body-block-navbar{
+        width: 80%;
+    }
 }
+
 
